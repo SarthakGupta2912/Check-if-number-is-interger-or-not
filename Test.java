@@ -3,13 +3,15 @@ import java.util.Scanner;
 public class Test {
 
     public static void main(String[] args) {
-        
+
+        //Enter your own code to take user input in string format
         String userString;
         Scanner scObj = new Scanner(System.in);
 
         System.out.println("Enter a number: ");
         userString = scObj.nextLine();
 
+        // Call the function and change the parameters accordingly
         CheckVal(userString, userString + " is an integer!", userString + " is not an integer!", userString + " is an integer but with a greater length!");
     }
 
